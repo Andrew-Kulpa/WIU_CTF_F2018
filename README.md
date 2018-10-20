@@ -1,10 +1,16 @@
 # WIU_CTF_F2018
 
 
-## Requirements
+## Process:
 
-  1. Supports SSH
-  2. Runs on Pi
-  3. GPIO output to light relay
-  4. Simple Python program that takes in 1 argument: the flag
-  5. Outputs sound file via default media device
+  1. Each team finds a flag via the CTF.
+  2. SSH into the relay GPIO emitter Raspberry Pi.
+  3. Upon putting in the correct flag, their corresponding light is lit up.
+  
+## TO DO:
+
+  - GPIO logic
+  - Team specification
+  - Code refactoring
+  - Better README.md
+  - Hacktoberfest issues for peer reviewing?
